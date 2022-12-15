@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Snake Game</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Snake, SnakeGame, game, jogos, programação, jogos eletronicos, cobrinha">
+        <meta name="description" content="Website do jogo da cobrinha 'SnakeGame'.">
+
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="./app.css">
+
+    </head>
+    <body>
+        <!-- Componnents -->
+
+        <!-- <h1>Hello, World!</h1> -->
+
+        <div class="container">
+            <header class="title">
+                <h3 id="score">Score: </h3>
+            </header>
+        </div>
+        <div class="container">
+            <section class="overLay">
+                <div class="gameOverGrid">
+                    <h3 id="gameOver">You lose!</h3>
+                </div>
+                <button class="gameOverGrid btn">Play</button>
+            </section>
+            <section id="gameBoard"></section>
+        </div>
+
+
+        <!-- scripts -->
+        <script src="./game.js"></script>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    </body>
+</html>
